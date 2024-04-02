@@ -1,0 +1,179 @@
+* {
+    font-family: Arial;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+
+    background-image: url(/images/socialCover.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.socialBox {
+    width: 560px;
+    height: 80px;
+    background: darkred;
+    border-radius: 20px;
+
+    position: relative;
+    top: 64px;
+    left: 680px;
+
+    transition-property: all;
+    transition-duration: .3s;
+    transition-delay: .2s;
+    transition-timing-function: linear;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.socialBox:hover {
+    transform: scale(1.05);
+}
+
+.instagramImage {
+    transition-property: all;
+    transition-duration: .3s;
+    transition-delay: .2s;
+    transition-timing-function: linear;
+}
+
+.instagramImage:hover {
+    transform: scale(1.1);
+}
+
+.facebookImage {
+    transition-property: all;
+    transition-duration: .3s;
+    transition-delay: .2s;
+    transition-timing-function: linear;
+}
+
+.facebookImage:hover {
+    transform: scale(1.1);
+}
+
+.githubImage {
+    transition-property: all;
+    transition-duration: .3s;
+    transition-delay: .2s;
+    transition-timing-function: linear;
+}
+
+.githubImage:hover {
+    transform: scale(1.1);
+}
+
+.sololearnImage {
+    transition-property: all;
+    transition-duration: .3s;
+    transition-delay: .2s;
+    transition-timing-function: linear;
+}
+
+.sololearnImage:hover {
+    transform: scale(1.1);
+}
+
+.navbackSocial {
+    width: 560px;
+    height: 64px;
+    background: darkred;
+
+    position: relative;
+    top: 17.5em;
+    left: 7.5em;
+    border-radius: 20px;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+
+    transition-property: transform;
+    transition-duration: .3s;
+    transition-delay: .2s;
+    transition-timing-function: linear;
+
+    animation: none;
+}
+
+@keyframes socialNavigation {
+    25% {
+        background: crimson;
+    }
+    50% {
+        background: red;
+    }
+    75% {
+        background: tomato
+    }
+    100% {
+        background: darkred;
+    }
+}
+
+.navbackSocial:hover {
+    transform: scale(1.1);
+
+    animation-name: socialNavigation;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1.5s;
+}
+
+.hoverbackSocial {
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    position: relative;
+    top: 18px;
+}
+
+.socialGOAbox {
+    width: 560px;
+    height: 80px;
+    background: darkred;
+    position: absolute;
+    top: 180px;
+    right: 60px;
+    border-radius: 20px;
+
+    transition-property: all;
+    transition-duration: .3s;
+    transition-delay: .2s;
+    transition-timing-function: linear;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.socialGOAbox:hover {
+    transform: scale(1.05);
+}
+
+.GOAimage1Link {
+    transition-property: all;
+    transition-duration: .3s;
+    transition-delay: .2s;
+    transition-timing-function: linear;
+}
+
+.GOAimage1Link:hover {
+    transform: scale(1.1);
+}
+
+.GOAimage2Link {
+    transition-property: all;
+    transition-duration: .3s;
+    transition-delay: .2s;
+    transition-timing-function: linear;
+}
+
+.GOAimage2Link:hover {
+    transform: scale(1.1);
+}

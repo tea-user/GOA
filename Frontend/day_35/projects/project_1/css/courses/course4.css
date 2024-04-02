@@ -1,0 +1,89 @@
+* {
+    font-family: Arial;
+}
+
+body {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+
+    background-image: url(/images/coursesCover.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box1OfCourse4 {
+    width: 450px;
+    height: 180px;
+    background: darkslategray;
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    padding: 20px;
+
+    transition-property: all;
+    transition-duration: .5s;
+    transition-delay: .2s;
+    transition-timing-function: linear;
+}
+
+.box1OfCourse4:hover {
+    transform: scale(1.05);
+}
+
+p {
+    color: white;
+}
+
+.box2OfCourse4 {
+    width: 450px;
+    height: 180px;
+    background: darkslategray;
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    padding: 20px;
+
+    transition-property: all;
+    transition-duration: .5s;
+    transition-delay: .2s;
+    transition-timing-function: linear;
+}
+
+.box2OfCourse4:hover {
+    transform: scale(1.05);
+}
+
+.navOfCourse4 {
+    width: 200px;
+    height: 60px;
+    background: darkslategray;
+    border-radius: 20px;
+
+    transition-property: all;
+    transition-duration: .5s;
+    transition-delay: .2s;
+    transition-timing-function: linear;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 60px;
+}
+
+.navOfCourse4:hover {
+    transform: scale(1.05)
+}
+
+.navOfCourse4Text {
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}

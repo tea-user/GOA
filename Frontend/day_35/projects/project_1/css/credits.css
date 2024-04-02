@@ -1,0 +1,88 @@
+* {
+    font-family: Arial;
+}
+
+body {
+    background-image: url(/images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+}
+
+.mainbox {
+    width: 600px;
+    height: 500px;
+    border: 0px transparent;
+    border-radius: 20px;
+    background: mediumorchid;
+    position: relative;
+    top: 20px;
+
+    transition-property: all;
+    transition-duration: .5s;
+    transition-delay: .2s;
+    transition-timing-function: linear;
+}
+
+.mainbox:hover {
+    background: darkorchid;
+    transform: scale(1.1);
+}
+
+h1, p, a {
+    text-align: center;
+    color: white;
+}
+
+.footer {
+    width: 400px;
+    height: 60px;
+    background: mediumorchid;
+    border-radius: 20px;
+
+    position: relative;
+    top: 210px;
+    left: 60px;
+
+    transition-property: transform;
+    transition-duration: .7s;
+    transition-delay: .2s;
+    transition-timing-function: linear;
+
+    animation: none;
+}
+
+@keyframes creditsFooter {
+    25% {
+        background: orchid;
+    }
+    50% {
+        background: pink;
+    }
+    75% {
+        background: purple;
+    }
+    100% {
+        background: palevioletred;
+    }
+}
+
+.footer:hover {
+    transform: scale(1.1);
+
+    animation-name: creditsFooter;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1.5s;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    position: relative;
+    left: 110px;
+    top: 18px;
+}

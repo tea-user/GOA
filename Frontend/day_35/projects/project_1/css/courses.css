@@ -1,0 +1,363 @@
+* {
+    font-family: Arial;
+}
+
+body {
+    background-image: url(/images/background.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+}
+
+.navbarOfCourses {
+    width: 2200px;
+    height: 60px;
+    background: cadetblue;
+
+    position: fixed;
+    right: 0px;
+    top: 0px;
+
+    transition-property: all;
+    transition-duration: .5s;
+    transition-delay: .2s;
+    transition-timing-function: linear;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbarOfCourses:hover {
+    transform: scaleY(1.05);
+    z-index: 1;
+}
+
+.login {
+    width: 180px;
+    height: 40px;
+    background: olivedrab;
+    border-radius: 20px;
+
+    position: relative;
+    left: 48rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: none;
+}
+
+.login:hover {
+    animation-name: hovered;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+
+
+.backToMenuCourses {
+    width: 180px;
+    height: 40px;
+    background: olivedrab;
+    border-radius: 20px;
+
+    position: relative;
+    left: 350px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: none;
+}
+
+.backToMenuCourses:hover {
+    animation-name: hovered;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes hovered {
+    0% {
+        transform: scale(1.1);
+    }
+    25% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    75% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.1);
+    }
+}
+
+.backToMenuCoursesText {
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+
+header {
+    width: 600px;
+    height: 200px;
+    background: darkslategray;
+    
+    position: relative;
+    top: 40px;
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+
+    transition-property: all;
+    transition-duration: .5s;
+    transition-delay: .2s;
+    transition-timing-function: linear;
+}
+
+header:hover {
+    transform: scale(1.05);
+}
+
+.headerDescription {
+    color: white;
+}
+
+.headerTitle {
+    color: white;
+}
+
+.course1Box {
+    width: 450px;
+    height: 140px;
+    background: darkslategray;
+
+    position: absolute;
+    top: 300px;
+
+    border-radius: 20px;
+    transition-property: all;
+    transition-duration: .5s;
+    transition-delay: .2s;
+    transition-timing-function: linear;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.course1Box:hover {
+    transform: scale(1.05);
+}
+
+.course1BoxTitle {
+    position: relative;
+    right: 100px;
+    color: white;
+}
+
+.startCourse1Box {
+    width: 400px;
+    height: 50px;
+    background: slategray;
+    border-radius: 20px;
+    animation: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.startCourse1Box:hover {
+    animation-name: hovered;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.startCourse1Content {
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+
+.course2Box {
+    width: 450px;
+    height: 140px;
+    background: darkslategray;
+
+    position: absolute;
+    top: 500px;
+
+    border-radius: 20px;
+    transition-property: all;
+    transition-duration: .5s;
+    transition-delay: .2s;
+    transition-timing-function: linear;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.course2Box:hover {
+    transform: scale(1.05);
+}
+
+.course2BoxTitle {
+    position: relative;
+    right: 100px;
+    color: white;
+}
+
+.startCourse2Box {
+    width: 400px;
+    height: 50px;
+    background: slategray;
+    border-radius: 20px;
+    animation: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.startCourse2Box:hover {
+    animation-name: hovered;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.startCourse2Content {
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+
+.course3Box {
+    width: 450px;
+    height: 140px;
+    background: darkslategray;
+
+    position: absolute;
+    top: 700px;
+
+    border-radius: 20px;
+    transition-property: all;
+    transition-duration: .5s;
+    transition-delay: .2s;
+    transition-timing-function: linear;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.course3Box:hover {
+    transform: scale(1.05);
+}
+
+.course3BoxTitle {
+    position: relative;
+    right: 70px;
+    color: white;
+}
+
+.startCourse3Box {
+    width: 400px;
+    height: 50px;
+    background: slategray;
+    border-radius: 20px;
+    animation: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.startCourse3Box:hover {
+    animation-name: hovered;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.startCourse3Content {
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+
+.course4Box {
+    width: 450px;
+    height: 140px;
+    background: darkslategray;
+
+    position: absolute;
+    top: 900px;
+
+    border-radius: 20px;
+    transition-property: all;
+    transition-duration: .5s;
+    transition-delay: .2s;
+    transition-timing-function: linear;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.course4Box:hover {
+    transform: scale(1.05);
+}
+
+.course4BoxTitle {
+    position: relative;
+    right: 100px;
+    color: white;
+}
+
+.startCourse4Box {
+    width: 400px;
+    height: 50px;
+    background: slategray;
+    border-radius: 20px;
+    animation: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.startCourse4Box:hover {
+    animation-name: hovered;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.startCourse4Content {
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+
+.comingSoon {
+    color: white;
+}
+
+.loginText {
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
